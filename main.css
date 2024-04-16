@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#444444;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color:#171717
+    ;
+}
+
+header h1 {
+    background-color: #171717;
+    color: #EDEDED;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: #DA0037;
+}
+
+form input {
+    margin-right: 16px;
+    font-size: medium;
+    font-weight:300;
+    background-color: #E8F0Fe;
+}
+
+button {
+    background-color: #EDEDED;
+}
+
+button:hover {
+    cursor: pointer;
+}
